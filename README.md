@@ -34,3 +34,35 @@ My Bootstrap journey!
         list-unstyled (for ul)  : to remove the bullet points
         
         list-inline (for ul) and list-inline-item (for li) to make list packed horizontally.
+
+
+
+### Text Alignment & Display
+        
+   * Text alignment (**text**)
+   Important note: All text alignment classes are prefixed with "text".
+        
+        text-justify    : to justify a text.
+        text-left       : left align text
+        text-right      : right align text
+        text-center     : center align text
+        
+   * Responsive alignment 
+        
+        All responsive alignments have same class names as regular alignments with size specified in the middle.
+                
+                text-sm-right   : align text to right on small or larger screens
+                text-md-right   : align text to right on medium or larger screens
+                text-lg-right   : align text to right on large or larger sreens
+                text-xl-right   : align text to right on xl or larger screens
+                
+                same goes with text-left and text-center.
+                
+   * Display (**d**)
+        
+        **d-** followed by the display property.
+                
+                d-inline        : display as inline element
+                d-block         : display as block element
+                d-inline-block  : display as inline-blocks.
+                text
