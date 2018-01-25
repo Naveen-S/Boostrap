@@ -66,4 +66,4 @@ My Bootstrap journey!
                 d-inline        : display as inline element
                 d-block         : display as block element
                 d-inline-block  : display as inline-blocks.
-                text
+             
