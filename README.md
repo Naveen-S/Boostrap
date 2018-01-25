@@ -40,13 +40,14 @@ My Bootstrap journey!
 ### Text Alignment & Display
         
    * Text alignment (**text**)
-   Important note: All text alignment classes are prefixed with "text".
         
-        text-justify    : to justify a text.
-        text-left       : left align text
-        text-right      : right align text
-        text-center     : center align text
+        Important note: All text alignment classes are prefixed with "text".
         
+                text-justify    : to justify a text.
+                text-left       : left align text
+                text-right      : right align text
+                text-center     : center align text
+
    * Responsive alignment 
         
         All responsive alignments have same class names as regular alignments with size specified in the middle.
