@@ -4,7 +4,7 @@ My Bootstrap journey!
 
 ### Basic typography
         
-  Display heading:
+ * Display heading:
         Use to display name of the page for something really big.
         
                 display-1   : humongous
@@ -12,24 +12,24 @@ My Bootstrap journey!
                 display-3   : Biggg
                 display-4   : twice h1
  
- Paragraphs:
+* Paragraphs:
             
             lead
  
- Style class:
+* Style class:
         
         font-weight-bold    : for bold text
         font-weight-normal  : for normal text
         font-italic         : for italicized text
         
  
- Text transform:
+* Text transform:
         
         text-lowercase  : make text lowercase
         text-uppercase  : make text uppercase
         text-capitalize : ok you got the gist.
         
- List
+* List
     
         list-unstyled (for ul)  : to remove the bullet points
         
