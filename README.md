@@ -67,3 +67,50 @@ My Bootstrap journey!
                 d-block         : display as block element
                 d-inline-block  : display as inline-blocks.
              
+
+### Floats and Position
+        
+        float-left      : to move a element to the left
+        float-right     : to move a element to the right        
+        float-none      : no float
+        
+   * Responsive floats
+                
+                float-sm-left
+                float-md-left
+                
+                same pattern
+   
+   * clearfix
+              
+              when you float left and float right item say if there is space inbetween 
+              them that space will be occupied next immediate markup( a paragaraph or heading tag)
+              so avoid that and force a line break we use clearfix.
+            
+            without clearfix:
+              __________                                                   ________
+              |previous|         Bootstrap clearfix                        | next |
+              ----------                                                    -------
+              
+             with clearfix: 
+              __________                                                   ________
+              |previous|                                                   | next |
+              ----------                                                    -------
+                                                                                                        
+                                 Bootstrap clearfix                                                                       
+              
+              
+    * Fixed Top
+                
+                fixed-top:
+                To fix a text at a fixed position irrespective of scrollbar movements use fixed-top class.
+    
+    * Sticky top
+                
+                sticky-top:
+                To make a text move along with scrollbar once it position is reached.
+    
+    * Fixed bottom
+                
+                fixed-bottom
+                To fix a text at the bottom of the screen.
