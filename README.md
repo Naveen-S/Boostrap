@@ -114,3 +114,30 @@ My Bootstrap journey!
                 
                 fixed-bottom
                 To fix a text at the bottom of the screen.
+                
+                
+### Text color and background
+        
+   * Text color
+                
+                text-primary
+                text-secondary
+                text-info
+                text-warning
+                text-success
+                text-danger
+                text-light
+                text-dark
+                text-white
+                
+   * Background color
+                
+                bg-primary
+                bg-secondary
+                bg-info
+                bg-warning
+                bg-success
+                bg-danger
+                bg-light
+                bg-dark
+                bg-white
