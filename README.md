@@ -96,8 +96,8 @@ My Bootstrap journey!
               __________                                                   ________
               |previous|                                                   | next |
               ----------                                                    -------
-                                                                                                        
-                                 Bootstrap clearfix                                                                       
+                                                                                                
+                                 Bootstrap clearfix                                              
               
               
     * Fixed Top
