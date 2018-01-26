@@ -141,3 +141,78 @@ My Bootstrap journey!
                 bg-light
                 bg-dark
                 bg-white
+                
+ ### Spacing
+   
+   Formula: 
+                {kind of spacing} {position} - {0-5}
+            
+                kind of spacing : m or p (margin or padding)
+                position        : t,b,l,r,x,y and nothing.
+                0-5             : 0 being less to 5 being more.
+   
+   * Margin (**m**)
+        
+                mb-0    : margin bottom 0
+                mb-1    : margin bottom small amount
+                .
+                .
+                mb-5
+          
+          similarly
+                
+                mt-0    : margin top
+                ml-0    : margin left
+                mr-0    : margin right
+                
+                mx-0    : margin left and right 
+                my-2    : margin top and bottom 
+                
+                m-5     : margin all sides
+                
+   *  Padding (**p**)
+            
+            Same as margin.
+                pb-0
+                
+   
+   * Center align
+                
+                mx-auto
+   
+   
+### Sizing
+   
+  * width (**w**) and height (**h**)
+  
+        formula:
+            sizing-percentage
+    
+       sizing | percentage %
+       -------|-----------
+       w or h | 25,50,75,100
+       ---------------------
+        
+            ex: w-25
+                h-50
+  
+ ### Border
+        
+   Formula:  border {border-bcolor} {border-{position}-0}
+            
+        border  : for light border
+        
+        For border with color:
+            Add border-(bootstrap-color-class)
+
+        Ex: border border-danger
+            border border-success
+            
+            
+        To remove border on some side
+            border border-info border-bottom-0
+   
+   
+   
+   
+   
