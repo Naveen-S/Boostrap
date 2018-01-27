@@ -306,3 +306,37 @@ My Bootstrap journey!
                 <button class="btn btn-white" type="button">Middle</button>
                 <button class="btn btn-success" type="button">Right</button>
             </div>
+
+
+
+
+## List groups
+            
+                ul will be list-group
+                everything under it li/a will be list-group-item
+                
+                for hoverable list: list-group-item-action
+                
+                
+   * colored list
+                
+                <ul class="list-group">
+                    <li class= "list-group-item list-group-item-primary"> Primary</li>
+                </ul>
+                
+   * tab list
+                
+                Just like tab window.
+                for ex: tablist.html
+                
+   * badge
+                
+                badge
+                badge-{primary to dark}
+   
+   * breadcrumb
+                
+                breadcrumb
+                breadcrumb-item
+                
+                
