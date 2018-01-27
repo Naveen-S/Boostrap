@@ -215,14 +215,14 @@ My Bootstrap journey!
    
    
  ## Buttons
-    * Normal buttons
+   * Normal buttons
     
           btn : to make a bootstrap styled button
           Pair it with btn- {primary to dark} for different shades.
           EX: btn btn-primary
             btn btn-info
             
-    * Ouline buttons        
+   * Outline buttons        
               
            btn-outline-{primary to dark}
     
