@@ -461,3 +461,9 @@ My Bootstrap journey!
                 Read cards.html
             
                     
+## Media object 
+                
+                media
+                media-body
+                Not so important skim through documentation if you will ever need it.
+                
