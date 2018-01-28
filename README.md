@@ -471,3 +471,26 @@ My Bootstrap journey!
 ## Grid system
             
             grid.html
+
+## Grid Alignments
+        
+  * Vertical alignment
+                
+                align-items-start       : applied to row to align all items to the start
+                align-items-center      : to align at the center
+                align-items-end         : at the end
+                
+       * To align individual columns
+                
+                align-self-start
+                align-self-center
+                align-self-end
+  
+ * Horizontal alignments
+                
+                justify-content-start
+                justify-content-center
+                justify-content-end
+                justify-content-around  : to balance spaces around
+                justify-content-between : all empty space will be inbetween
+                
