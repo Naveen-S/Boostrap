@@ -243,71 +243,78 @@ My Bootstrap journey!
             toggle : And a data-toggle = "button" attribute for this to work.
             
             
-    * Dropdown
-            
-            <div class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
-                        My Dropdown
-                 </button>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Link One</a>
-                    <a class="dropdown-item" href="#">Link Two</a>
-                    <a class="dropdown-item" href="#">Link Three</a>
-                </div>
-            </div>
+ * Dropdown
     
-    * Split dropdown
-            
-            <div class="btn-group">
-                <button class="btn btn-primary" type="button">My Button</button>
-                <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" type="button">
-                    <span >Toggle Dropdown</span>
-                </button>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Link One</a>
-                    <a class="dropdown-item" href="#">Link Two</a>
-                    <a class="dropdown-item" href="#">Link Three</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Link Four</a>
-                </div>
-            </div>
+    ```html               
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                My Dropdown
+         </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Link One</a>
+            <a class="dropdown-item" href="#">Link Two</a>
+            <a class="dropdown-item" href="#">Link Three</a>
+        </div>
+    </div>
+    ```
+
+ * Split dropdown
     
-    * Button group
+    ```html
+    <div class="btn-group">
+        <button class="btn btn-primary" type="button">My Button</button>
+        <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" type="button">
+            <span >Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Link One</a>
+            <a class="dropdown-item" href="#">Link Two</a>
+            <a class="dropdown-item" href="#">Link Three</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Link Four</a>
+        </div>
+    </div>
+    ```
+    
+ * Button group
+    ```html    
+    <div class="btn-group">
+        <button class="btn btn-info" type="button">Left</button>
+        <button class="btn btn-success" type="button">Middle</button>
+        <button class="btn btn-warning" type="button">Right</button>
+    </div>
+    ```
         
-            <div class="btn-group">
-                <button class="btn btn-info" type="button">Left</button>
-                <button class="btn btn-success" type="button">Middle</button>
-                <button class="btn btn-warning" type="button">Right</button>
-            </div>
-        
-    * Button toolbar
+ * Button toolbar
     
-            <div class="btn-toolbar">
-                <div class="btn-group mr-3">
-                    <button class="btn btn-warning" type="button">1</button>
-                    <button class="btn btn-warning" type="button">2</button>
-                    <button class="btn btn-warning" type="button">3</button>
-                    <button class="btn btn-warning" type="button">4</button>
-                </div>
-                <div class="btn-group mr-3">
-                    <button class="btn btn-warning" type="button">5</button>
-                    <button class="btn btn-warning" type="button">6</button>
-                    <button class="btn btn-warning" type="button">7</button>
-                </div>
-                <div class="btn-group mr-3">
-                    <button class="btn btn-danger" type="button">8</button>
-                </div>
-            </div>
-
-    * Button vertical group
-                
-            <div class="btn-group-vertical">
-                <button class="btn btn-warning" type="button">Left</button>
-                <button class="btn btn-white" type="button">Middle</button>
-                <button class="btn btn-success" type="button">Right</button>
-            </div>
-
-
+    ```html
+    <div class="btn-toolbar">
+        <div class="btn-group mr-3">
+            <button class="btn btn-warning" type="button">1</button>
+            <button class="btn btn-warning" type="button">2</button>
+            <button class="btn btn-warning" type="button">3</button>
+            <button class="btn btn-warning" type="button">4</button>
+        </div>
+        <div class="btn-group mr-3">
+            <button class="btn btn-warning" type="button">5</button>
+            <button class="btn btn-warning" type="button">6</button>
+            <button class="btn btn-warning" type="button">7</button>
+        </div>
+        <div class="btn-group mr-3">
+            <button class="btn btn-danger" type="button">8</button>
+        </div>
+    </div>
+    ```
+    
+ * Button vertical group
+    
+    ```html            
+    <div class="btn-group-vertical">
+        <button class="btn btn-warning" type="button">Left</button>
+        <button class="btn btn-white" type="button">Middle</button>
+        <button class="btn btn-success" type="button">Right</button>
+    </div>
+    ```
 
 
 ## List groups
