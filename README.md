@@ -467,3 +467,7 @@ My Bootstrap journey!
                 media-body
                 Not so important skim through documentation if you will ever need it.
                 
+
+## Grid system
+            
+            grid.html
