@@ -370,4 +370,15 @@ My Bootstrap journey!
                 Ex:
                         validation.html
                 
+
+## Input Groups
+            
+            Way be merge two input items as one.
+            ex: radio button + text field
+                text field + (search) button 
                 
+           Enclosing div is given   : input-group
+           And the addon are given  : input-group-addon
+           But if its a button      : input-group-btn
+           And the text field will have the regular form-control class.
+           
