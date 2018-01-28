@@ -340,3 +340,50 @@ My Bootstrap journey!
                 breadcrumb-item
                 
                 
+                
+                
+ ## Forms
+        
+        form-group      : to div to group label and input
+        form-control    : to input to bootstrap style it
+        
+  * checkbox:
+               
+               form-check       : for the div containing label and checkbox
+               form-check-label : for checkbox label
+               form-check-input : for checkbox input
+               
+ * Inline form
+                
+                use form-inline instead of form-group
+  
+  * Form row
+                Go readup.
+  
+  * Validations
+                
+                is-valid        : for green background around input field
+                is-invalid      : for red background
+                invalid-feedback: for error messages
+                
+                Ex:
+                
+                
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input class="form-control is-valid" type="text" id="username">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input class="form-control is-invalid" type="text" id="password">
+                    <div class="invalid-feedback">
+                      Password not strong enough
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="password2">Confirm Password</label>
+                    <input class="form-control is-invalid" type="text" id="password2">
+                    <div class="invalid-feedback">
+                      Password does not match
+                    </div>
+                </div>
