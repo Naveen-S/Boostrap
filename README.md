@@ -424,5 +424,39 @@ My Bootstrap journey!
                  style="width:80%;"> 80% </div>
         </div>
         ```
-                    
+    
+    
+ ## Tables
+        
+            table           : add table class to table tag to make it bootstrap table
+            table-inverse   : reversing the color
+            table-striped   : white and grey table
+            table-hover     : hoverable table
+            table-bordered  : table with border
+            table-{size}    : table based on size
+            
+
+## Pagination
+            
+  ```html
+  <nav>
+        <ul class="pagination">
+            <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+   </nav>
+   ```
+              
+              to align pagination menu we can use:
+                justify-content-start
+                justify-content-center
+                justify-content-end
+                
+                
+      
+            
+            
                     
