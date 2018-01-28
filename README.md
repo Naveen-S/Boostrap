@@ -382,3 +382,21 @@ My Bootstrap journey!
            But if its a button      : input-group-btn
            And the text field will have the regular form-control class.
            
+
+
+## Alerts and Progress bar
+               
+               alert                    : for enclosing div
+               alert-{primary-dark}     : combined with any contextual color
+             
+             
+  * Dismissible alert
+                
+      ```html
+       <div class="alert alert-primary alert-dismissible show fade">
+           <button class="close" data-dismiss="alert" type="button">
+               <span>&times;</span>
+           </button>
+           <strong>Dismissable</strong> Blog post added
+       </div>
+       ```
