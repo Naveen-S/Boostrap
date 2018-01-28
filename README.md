@@ -407,3 +407,22 @@ My Bootstrap journey!
            <strong>Dismissable</strong> Blog post added
        </div>
        ```
+
+   * Progress bar
+                
+                progress        : for enclosing div
+                progress-bar    : to render the progress bar
+                with bg-{color} for different color progress bars.
+                
+                progress-bar-striped    : for striped progress bar
+                progress-bar-animated   :  to show animation on striped progress bar
+                
+        example:
+        ```html
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" 
+                 style="width:80%;"> 80% </div>
+        </div>
+        ```
+                    
+                    
