@@ -532,3 +532,48 @@ My Bootstrap journey!
    * Accordion
                 
                READ accordion.html
+
+## Tooltip
+
+           data-toggle = tooltip 
+           data-placement = {top/right/bottom/left}
+           title = "what goes inside tooltip" // can be text or html
+           
+           if title is html
+           data-html = "true"
+           
+           Note: You need to init tooltips
+           $("[data-toggle='tooltip']").tooltip();
+           
+  Tooltip with events
+  ```html
+  <button class="btn btn-secondary" onclick="showTooltip()">
+  Show Tooltip
+  </button>
+
+  <button class="btn btn-secondary" onclick="hideTooltip()">
+  Hide Tooltip
+  </button>
+
+  <button class="btn btn-secondary" onclick="toggleTooltip()">
+  Toggle Tooltip
+  </button>
+
+  <script>
+  $('#hello').on('show.bs.tooltip', function(){
+  console.log('Tooltip Show');
+  });
+
+  $('#hello').on('shown.bs.tooltip', function(){
+  console.log('Tooltip Shown');
+  });
+
+  $('#hello').on('hide.bs.tooltip', function(){
+  console.log('Tooltip Hide');
+  });
+
+  $('#hello').on('hidden.bs.tooltip', function(){
+  console.log('Tooltip Hidden');
+  });
+  </script>
+  ```
