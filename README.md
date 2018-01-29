@@ -503,3 +503,15 @@ My Bootstrap journey!
         And all grid alignment classes
         
         READ: flexbox.html
+
+   * auto-margins and wrappings
+        
+                mr-auto
+                ml-auto
+                mb-auto
+                mt-auto
+                
+                flex-nowrap
+                flex-wrap
+                
+                Ex: autoMargins.html
