@@ -515,3 +515,6 @@ My Bootstrap journey!
                 flex-wrap
                 
                 Ex: autoMargins.html
+
+## Carousel
+        Read: carousel.html
