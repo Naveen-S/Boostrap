@@ -494,3 +494,12 @@ My Bootstrap journey!
                 justify-content-around  : to balance spaces around
                 justify-content-between : all empty space will be inbetween
                 
+
+## Flexbox
+        
+        d-flex
+        flex-row
+        flex-column
+        And all grid alignment classes
+        
+        READ: flexbox.html
