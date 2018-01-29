@@ -577,3 +577,19 @@ My Bootstrap journey!
   });
   </script>
   ```
+
+
+
+## Popovers
+        
+     Just like tooltip, butcan show more content and well structured manner.
+        
+        class="btn btn-primary"
+        data-toggle="popover"
+        data-placement="top"
+        title="blah blah"
+        data-content="some shit goes here"
+        data-trigger="focus" // dismissible on clicking outside
+        
+    Events are same as tooltip   
+        
