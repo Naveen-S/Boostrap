@@ -518,3 +518,17 @@ My Bootstrap journey!
 
 ## Carousel
         Read: carousel.html
+        
+## Collapse and Accordian
+     
+   * collapse button
+   
+                data-toggle     : collapse
+                data-target     : div's id
+                
+                And div should a id and class:  collapse
+                
+                
+   * Accordion
+                
+               READ accordion.html
